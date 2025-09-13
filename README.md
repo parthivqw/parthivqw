@@ -35,4 +35,6 @@ trained by fire, not by tutorials.
 
 > “No seniors. No handholding. Just a kid with a laptop and questions —  
 > now building systems that work.”
+>
+> ![Profile Visits](https://img.shields.io/endpoint?url=https://yasinkalkan.com/api/githubvisitorstats/track/?user=parthivqw)
 
