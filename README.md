@@ -1,40 +1,48 @@
-# 👋 Hi, I'm Parthiv
+# 👋 Hey, I'm Parthiv S.
 
-Self-taught AI/ML engineer with a builder’s mindset —  
-trained by fire, not by tutorials.
-
-- 🔧 Built and shipped 3+ full-stack ML/GenAI projects from scratch  
-- 💡 Specialized in LLM-powered tools, classification engines, and image generation pipelines  
-- 🧠 Tools used: Groq, FAISS, LLaMA 3, BERT, Streamlit, SDXL, Angular, FastAPI  
-- 📦 All projects deployed solo on Kaggle, GitHub, and local APIs  
-- 💪 Work ethic: learn by doing, debug by obsession, build without handholding
+> Self-taught **AI / ML Engineer** with a builder’s mindset —  
+> trained by fire, not by tutorials.
 
 ---
 
-## 🔗 Featured Projects
+### 🚀 What I Do
+I design and build **end-to-end AI systems** — from training and fine-tuning models to full-stack orchestration with real-time UIs.  
+Every project you see here was **planned, coded, and deployed solo**.
 
-- **[Insurance Risk Profiler](https://github.com/parthivqw/insurance-risk-profiling)**  
-  Risk classification + premium prediction + client segmentation using ML
-
-- **[LeadIntentAI](https://github.com/parthivqw/lead-intent-ai)**  
-  BERT + Phi-3 engine to classify lead intent and suggest next steps
-
-- **[Poster Generator (SDXL + LLaMA)](https://github.com/parthivqw/poster-generator)**  
-  Full-stack GenAI pipeline with prompt tuning, image overlay, and Angular UI
+- 🧠 **Specialization:** Generative AI, LangGraph multi-agent systems, NLP, and image generation pipelines  
+- ⚙️ **Stack:** Groq · FastAPI · LangGraph · LLaMA-3 · BERT · SDXL · Angular · FAISS · Streamlit  
+- 🧩 **Philosophy:** learn by doing · debug by obsession · build what no one asks for yet  
 
 ---
 
-## 📫 Reach Me
+### 🧩 Featured Projects
 
-- Email: [parthivkovilakathu@gmail.com](mailto:parthivkovilakathu@gmail.com)  
-- GitHub: [github.com/parthivqw](https://github.com/parthivqw)  
-- LinkedIn: [linkedin.com/in/parthiv-s-831b58248](https://linkedin.com/in/parthiv-s-831b58248)  
+**🧾 [Insurance Risk Profiler](#)**  
+→ Predicts client risk, premium tier, and churn probability using machine learning classification models.
 
+**🎯 [LeadIntentAI](#)**  
+→ Fine-tuned BERT model that classifies sales leads into 8 intent categories and suggests next-step actions.  
+→ Hosted on Hugging Face: [`Sanji8421/fine_tuned_BERT`](https://huggingface.co/Sanji8421/fine_tuned_BERT)
+
+**🎨 [Agentic Content Generator](#)**  
+→ Full-stack multi-agent GenAI system built with LangGraph, Groq, and A4F.  
+→ Automates creative content workflows: planning → prompt generation → image synthesis → captioning.  
+→ Dynamic UI built with Angular + FastAPI backend.
+
+---
+
+### 🛠️ Current Focus
+Building **agentic pipelines** that combine reasoning, creativity, and automation —  
+making AI that *thinks, plans, and creates* instead of just responding.
+
+---
+
+### 📬 Reach Me
+- ✉️ **Email:** parthivkovilakathu@gmail.com  
+- 💼 **LinkedIn:** [linkedin.com/in/parthiv-s-831b58248](https://linkedin.com/in/parthiv-s-831b58248)  
+- 🧭 **GitHub:** [github.com/parthivqw](https://github.com/parthivqw)
 
 ---
 
 > “No seniors. No handholding. Just a kid with a laptop and questions —  
-> now building systems that work.”
->
-> ![Profile Visits](https://img.shields.io/endpoint?url=https://yasinkalkan.com/api/githubvisitorstats/track/?user=parthivqw)
-
+> now building systems that actually work.”
