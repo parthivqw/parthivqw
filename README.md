@@ -1,1 +1,71 @@
-Hi, I'm Parthiv S. 👋Full-Stack AI Engineer | Multi-Agent Systems Specialist"No seniors. No handholding. Just a kid with a laptop and questions — now building autonomous systems that actually work."I don't just wrap APIs. I architect distributed, stateful, and self-correcting AI systems.I specialize in Agentic Orchestration—building digital workforces that can plan complex workflows, execute tasks, validate their own work, and fail gracefully, all while running on $0 infrastructure costs.🛠️ The Technical ArsenalDomainStackOrchestrationLangGraph, LangChain, State Machines, Human-in-the-Loop (HITL)BackendFastAPI, Uvicorn, Server-Sent Events (SSE), Python, DockerFrontendReact, Vite, TypeScript, Tailwind CSS, Glassmorphism UIAI/MLFine-Tuning (BERT), RAG (FAISS), Prompt Engineering (Chain of Thought)DevOpsGitHub Actions, Render, Vercel, Railway, CI/CD Pipelines🚀 Featured Engineering Feats (2025)1. Agentic Content Orchestrator (Production)Architecture: LangGraph • FastAPI • React + Vite • SSE StreamingA distributed multi-agent system that generates blog posts and social media content with built-in quality control.The Architecture: Implemented a Hub-and-Spoke Supervisor pattern managing 4 specialized agents (Planner, Prepare, Processing, Execution).The "Brain": Features a "Golden Question" classification loop that intelligently determines user intent before generating content.The Resilience: Engineered a 5-Model Fallback Cascade (Imagen-4 → Phoenix → Flux → SDXL) ensuring 95% image generation success rates.The Flex: Migrated the entire frontend from monolithic HTML to a modular React + Vite application in <3 hours during a live sprint.2. AI Market Intelligence PlatformArchitecture: Python • Docker • Evaluation Layer • ETL PipelinesA 5-phase data pipeline (Ingest → Unify → Engine → Serve) that transforms raw cross-platform app data into executive strategic reports.Production Grade: Fully containerized with Docker for one-command deployment.Evaluation Layer: Built a custom harness tracking latency, token cost, and confidence scores to eval.jsonl for long-term performance monitoring.Speed: Refactored the entire codebase to production standards (CI/CD, Pytest) in under 24 hours.3. The "AI Twin" Voice BotArchitecture: Speech-to-Text • LLM • Text-to-Speech • AngularAn end-to-end audio pipeline built and deployed in a 48-hour sprint.Strategic Pivot: When FAISS RAG hit memory limits on the free tier, I refactored the backend to a massive-context model architecture to maintain functionality without increasing costs.Uptime: Implemented a multi-key fallback cascade for TTS (Groq → Backup Keys → gTTS) to prevent rate-limit crashes.4. LeadIntentAI (Open Source)Architecture: PyTorch • Transformers • BERTThe Science: Fine-tuned a BERT model to classify sales conversations into 8 distinct intent categories (e.g., "Ghosted", "Interested", "Price Concern").Performance: Achieved a 95% F1-score, proving mathematical depth beyond simple API integrations.Hosted: Available on Hugging Face: Sanji8421/fine_tuned_BERT.🧩 My Engineering PhilosophyAggressive Resourcefulness: I build enterprise-grade redundancy specifically because I rely on free tiers. Limitations breed better architecture.Debug by Obsession: I don't sleep until the state machine flows correctly.Ship or Die: Code that sits in a repo is useless. I deploy everything.📬 ConnectGitHub: github.com/parthivqwLinkedIn: linkedin.com/in/parthiv-s-831b58248Email: parthivkovilakathu@gmail.com
+# Hi, I'm Parthiv S. 👋
+
+### Full-Stack AI Engineer | Multi-Agent Systems Specialist
+
+> "No seniors. No handholding. Just a kid with a laptop and questions — now building autonomous systems that actually work."
+
+I don't just wrap APIs. I architect **distributed, stateful, and self-correcting AI systems**.
+I specialize in **Agentic Orchestration**—building digital workforces that can plan complex workflows, execute tasks, validate their own work, and fail gracefully, all while running on **$0 infrastructure costs**.
+
+---
+
+## 🛠️ The Technical Arsenal
+
+| Domain | Stack |
+| :--- | :--- |
+| **Orchestration** | LangGraph, LangChain, State Machines, Human-in-the-Loop (HITL) |
+| **Backend** | FastAPI, Uvicorn, Server-Sent Events (SSE), Python, Docker |
+| **Frontend** | React, Vite, TypeScript, Tailwind CSS, Glassmorphism UI |
+| **AI/ML** | Fine-Tuning (BERT), RAG (FAISS), Prompt Engineering (Chain of Thought) |
+| **DevOps** | GitHub Actions, Render, Vercel, Railway, CI/CD Pipelines |
+
+---
+
+## 🚀 Featured Engineering Feats (2025)
+
+### 1. Agentic Content Orchestrator (Production)
+**Architecture:** `LangGraph` • `FastAPI` • `React + Vite` • `SSE Streaming`
+
+A distributed multi-agent system that generates blog posts and social media content with built-in quality control.
+* **The Architecture:** Implemented a **Hub-and-Spoke Supervisor** pattern managing 4 specialized agents (Planner, Prepare, Processing, Execution).
+* **The "Brain":** Features a **"Golden Question" classification loop** that intelligently determines user intent before generating content.
+* **The Resilience:** Engineered a **5-Model Fallback Cascade** (Imagen-4 → Phoenix → Flux → SDXL) ensuring 95% image generation success rates.
+* **The Flex:** Migrated the entire frontend from monolithic HTML to a modular **React + Vite** application in <3 hours during a live sprint.
+
+### 2. AI Market Intelligence Platform
+**Architecture:** `Python` • `Docker` • `Evaluation Layer` • `ETL Pipelines`
+
+A 5-phase data pipeline (Ingest → Unify → Engine → Serve) that transforms raw cross-platform app data into executive strategic reports.
+* **Production Grade:** Fully containerized with Docker for one-command deployment.
+* **Evaluation Layer:** Built a custom harness tracking latency, token cost, and confidence scores to `eval.jsonl` for long-term performance monitoring.
+* **Speed:** Refactored the entire codebase to production standards (CI/CD, Pytest) in under 24 hours.
+
+### 3. The "AI Twin" Voice Bot
+**Architecture:** `Speech-to-Text` • `LLM` • `Text-to-Speech` • `Angular`
+
+An end-to-end audio pipeline built and deployed in a **48-hour sprint**.
+* **Strategic Pivot:** When FAISS RAG hit memory limits on the free tier, I refactored the backend to a massive-context model architecture to maintain functionality without increasing costs.
+* **Uptime:** Implemented a multi-key fallback cascade for TTS (Groq → Backup Keys → gTTS) to prevent rate-limit crashes.
+
+### 4. LeadIntentAI (Open Source)
+**Architecture:** `PyTorch` • `Transformers` • `BERT`
+
+* **The Science:** Fine-tuned a BERT model to classify sales conversations into 8 distinct intent categories (e.g., "Ghosted", "Interested", "Price Concern").
+* **Performance:** Achieved a **95% F1-score**, proving mathematical depth beyond simple API integrations.
+* **Hosted:** Available on Hugging Face: [`Sanji8421/fine_tuned_BERT`](https://huggingface.co/Sanji8421/fine_tuned_BERT).
+
+---
+
+## 🧩 My Engineering Philosophy
+
+* **Aggressive Resourcefulness:** I build enterprise-grade redundancy specifically because I rely on free tiers. Limitations breed better architecture.
+* **Debug by Obsession:** I don't sleep until the state machine flows correctly.
+* **Ship or Die:** Code that sits in a repo is useless. I deploy everything.
+
+---
+
+### 📬 Connect
+
+* **GitHub:** [github.com/parthivqw](https://github.com/parthivqw)
+* **LinkedIn:** [linkedin.com/in/parthiv-s-831b58248](https://linkedin.com/in/parthiv-s-831b58248)
+* **Email:** parthivkovilakathu@gmail.com
