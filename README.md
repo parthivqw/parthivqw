@@ -1,71 +1,49 @@
 # Hi, I'm Parthiv S. 👋
 
-### Full-Stack AI Engineer | Multi-Agent Systems Specialist
+**AI Systems Architect | Real-Time Voice AI & Spatial Computing**
 
-> "No seniors. No handholding. Just a kid with a laptop and questions — now building autonomous systems that actually work."
+I don't build academic prototypes or rely on standard wrapper libraries. I solo-architect distributed, stateful, and fault-tolerant AI systems from zero-to-one. I specialize in extreme-low-latency Voice AI, pure LangGraph state orchestration, and Mixed Reality (MR) pipelines, solving complex concurrency and hardware bottlenecks for enterprise production environments.
 
-I don't just wrap APIs. I architect **distributed, stateful, and self-correcting AI systems**.
-I specialize in **Agentic Orchestration**—building digital workforces that can plan complex workflows, execute tasks, validate their own work, and fail gracefully, all while running on **$0 infrastructure costs**.
-
----
-
-## 🛠️ The Technical Arsenal
+### 🛠️ The Technical Arsenal
 
 | Domain | Stack |
 | :--- | :--- |
-| **Orchestration** | LangGraph, LangChain, State Machines, Human-in-the-Loop (HITL) |
-| **Backend** | FastAPI, Uvicorn, Server-Sent Events (SSE), Python, Docker |
+| **Orchestration & State** | Pure LangGraph, Python Dict State Management, State Machines, Concurrency Guards |
+| **Real-Time Voice AI** | Deepgram Nova 3 (Streaming ASR), Groq Whisper, ElevenLabs, Silero VAD, Twilio (WebSockets) |
+| **Spatial & MR** | Unity 6, Meta Quest 3 Passthrough APIs, MediaPipe, Serverless GPU Compute |
+| **Backend & DevOps** | FastAPI, Uvicorn, Docker, asyncio, PostgreSQL, Vector DBs, GitHub Actions CI/CD |
 | **Frontend** | React, Vite, TypeScript, Tailwind CSS, Glassmorphism UI |
-| **AI/ML** | Fine-Tuning (BERT), RAG (FAISS), Prompt Engineering (Chain of Thought) |
-| **DevOps** | GitHub Actions, Render, Vercel, Railway, CI/CD Pipelines |
 
 ---
 
-## 🚀 Featured Engineering Feats (2025)
+### 🚀 Featured Architectural Feats
 
-### 1. Agentic Content Orchestrator (Production)
-**Architecture:** `LangGraph` • `FastAPI` • `React + Vite` • `SSE Streaming`
+#### 1. Enterprise Real-Time Voice AI Platform (Production)
+*An end-to-end autonomous reservation voice bot handling 370+ live concurrent calls for UK enterprise clients.*
+* **The Architecture:** Designed a 13-step pure LangGraph state machine with zombie-turn protection to prevent stale DB writes during overlapping asynchronous invocations.
+* **Extreme Low Latency:** Engineered a speculative LLM execution engine that fires during the VAD grace period, achieving a 67% cache hit rate and a **535ms median perceived latency**.
+* **Resilience:** Built a dual ASR ensembling pipeline (Deepgram streaming + Groq Whisper large-v3-turbo batch fallback) with soft table-locking to prevent double-bookings.
 
-A distributed multi-agent system that generates blog posts and social media content with built-in quality control.
-* **The Architecture:** Implemented a **Hub-and-Spoke Supervisor** pattern managing 4 specialized agents (Planner, Prepare, Processing, Execution).
-* **The "Brain":** Features a **"Golden Question" classification loop** that intelligently determines user intent before generating content.
-* **The Resilience:** Engineered a **5-Model Fallback Cascade** (Imagen-4 → Phoenix → Flux → SDXL) ensuring 95% image generation success rates.
-* **The Flex:** Migrated the entire frontend from monolithic HTML to a modular **React + Vite** application in <3 hours during a live sprint.
+#### 2. Project HoloBorn (Mixed Reality / Spatial Computing)
+*A dynamic MR pipeline bridging local headset hardware with cloud-GPU serverless compute.*
+* **The Engine:** Engineered a bypass for the Meta Quest 3's 4MP camera limitation by building an AI Portraitizer layer to generate high-fidelity textures without sacrificing user identity.
+* **The Pipeline:** Architected a cold-start serverless CI/CD backend that generates fully rigged, animatable 3D avatars from 2D physical passthrough captures in under 6 minutes.
 
-### 2. AI Market Intelligence Platform
-**Architecture:** `Python` • `Docker` • `Evaluation Layer` • `ETL Pipelines`
+#### 3. Agentic Content & Orchestration Engine
+*A highly distributed Hub-and-Spoke multi-agent system.*
+* **Pure State Control:** Completely bypassed standard LangChain wrappers in favor of highly optimized, pure Python dictionaries for absolute deterministic state management. 
+* **The Fallback:** Engineered a 5-model image generation fallback cascade (Imagen-4 → Phoenix → Flux → SDXL) guaranteeing a 95% execution success rate.
 
-A 5-phase data pipeline (Ingest → Unify → Engine → Serve) that transforms raw cross-platform app data into executive strategic reports.
-* **Production Grade:** Fully containerized with Docker for one-command deployment.
-* **Evaluation Layer:** Built a custom harness tracking latency, token cost, and confidence scores to `eval.jsonl` for long-term performance monitoring.
-* **Speed:** Refactored the entire codebase to production standards (CI/CD, Pytest) in under 24 hours.
-
-### 3. The "AI Twin" Voice Bot
-**Architecture:** `Speech-to-Text` • `LLM` • `Text-to-Speech` • `Angular`
-
-An end-to-end audio pipeline built and deployed in a **48-hour sprint**.
-* **Strategic Pivot:** When FAISS RAG hit memory limits on the free tier, I refactored the backend to a massive-context model architecture to maintain functionality without increasing costs.
-* **Uptime:** Implemented a multi-key fallback cascade for TTS (Groq → Backup Keys → gTTS) to prevent rate-limit crashes.
-
-### 4. LeadIntentAI (Open Source)
-**Architecture:** `PyTorch` • `Transformers` • `BERT`
-
-* **The Science:** Fine-tuned a BERT model to classify sales conversations into 8 distinct intent categories (e.g., "Ghosted", "Interested", "Price Concern").
-* **Performance:** Achieved a **95% F1-score**, proving mathematical depth beyond simple API integrations.
-* **Hosted:** Available on Hugging Face: [`Sanji8421/fine_tuned_BERT`](https://huggingface.co/Sanji8421/fine_tuned_BERT).
+#### 4. LeadIntentAI (Open Source ML)
+* **The Science:** Fine-tuned a BERT model to classify live sales conversations into 8 distinct intent categories, achieving a 95% F1-score to prove mathematical depth beyond just calling APIs. 
+* **Hosted:** Available directly on Hugging Face: `Sanji8421/fine_tuned_BERT`.
 
 ---
 
-## 🧩 My Engineering Philosophy
+### 🧩 My Engineering Philosophy
 
-* **Aggressive Resourcefulness:** I build enterprise-grade redundancy specifically because I rely on free tiers. Limitations breed better architecture.
-* **Debug by Obsession:** I don't sleep until the state machine flows correctly.
-* **Ship or Die:** Code that sits in a repo is useless. I deploy everything.
+* **Architects Over Wrappers:** I build custom logic and strict state control. If a library abstracts away too much control, I strip it out and write it myself. 
+* **Debug by Obsession:** Latency is the enemy. I don't sleep until the state machine flows deterministically and the async DB writes execute flawlessly.
+* **Ship or Die:** Code that sits on a local machine is useless. I deploy containerized, production-grade systems. 
 
----
-
-### 📬 Connect
-
-* **GitHub:** [github.com/parthivqw](https://github.com/parthivqw)
-* **LinkedIn:** [linkedin.com/in/parthiv-s-831b58248](https://linkedin.com/in/parthiv-s-831b58248)
-* **Email:** parthivkovilakathu@gmail.com
+📬 **Connect:** [LinkedIn](https://linkedin.com/in/parthiv-s-831b58248) | **Email:** parthivkovilakathu@gmail.com
